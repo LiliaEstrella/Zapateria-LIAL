@@ -1,0 +1,246 @@
+body{
+    font-family: cursive;
+    margin:0;
+    padding:0;
+    text-align: center;
+    background: bisque;
+    color: aliceblue;
+}
+.logo{
+    width: 150px;
+    margin: 1%  2%; 
+    border-radius: 60px;
+    box-shadow: 2px 2px 5px pink;   
+}
+h1{
+    font-size: 4em;
+    color: aliceblue;
+    margin:5px 10px 10px 0;
+    text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+    background: palevioletred;
+    color: aliceblue;
+    margin:5%;
+    border: 5px;
+    padding:1%;
+    border-radius:5px;
+
+}
+p{
+    font-size: 1em;
+    text-align: center;
+    margin:1% 20%;
+font-family:cursive;
+background: #F87;
+padding:3%;
+border-radius:5px;
+
+}
+li{
+    display:inline;
+    float:right;
+    margin: 20px 10px 10px 5px;
+    background:palevioletred ;
+    box-shadow: 2px 2px 5px #999;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+}
+li a{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+
+}
+.tennis{
+    width: 60%;
+    box-shadow: 2px 2px 5px #F87;
+    margin:5px 2%;
+    border-radius: 10%;
+}
+.productos{
+width: 100%;
+background: pink;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 10%;
+}
+.campos{
+    color:black;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.registros{
+    color:black;
+    font-size: 1.5em;
+    margin:30px;
+}
+th{
+    background: lightskyblue;
+    margin:10px;
+    border-radius: 5px;
+    padding:10px
+}
+form{
+    background-color: lightpink;
+    border-radius: 10px;
+    margin:10%;
+}
+label, input, textarea{
+    font-size:1em;
+    color:black;
+    display:block;
+    padding:10px;
+    margin:1% 40%;
+    width: 30%;
+    font-size: 1.5em;
+    border-radius: 10%;
+    border:none;
+}
+button{
+    font-size: 1.5em;
+    font-family: 'Grape Nuts', cursive;
+    margin-left: 12%;
+    margin-bottom: 2%;
+background-color: hotpink;;
+border: none;
+color:aliceblue;
+text-shadow:0 0 0.2em violet, 0 0 0.2em gray;
+padding:1.5%;
+font-weight: bold;
+border-radius: 10px;
+
+}
+
+button:hover{
+    background-color:violet;
+}
+
+.dato_contacto{
+    float: left;
+    display:block;
+    margin-right: 50%;
+    
+}
+.croquis{
+    border-radius: 50px;
+    
+}
+footer{
+    padding:10px;
+    background-color:hotpink;
+}
+.pie{
+    background-color:blue;  
+    padding: 5px;
+    margin:0;
+}
+iframe{
+    margin:5%;
+    border-radius: 10px;
+}
+.login{
+    margin:10%;
+}
+.sesion{
+    margin-top: 30px;
+}
+.agregar{
+    float:right;
+    margin-right: 1%;
+  
+}
+.actualizar{
+    font-size: 12px;
+    margin: 0 3px;
+}
+.btn_actualizar{
+    padding:10px;
+}
+h4{
+    color:red;float: inline-start;}
+#anterior{
+    float:left;
+    display: inline;
+    margin:0;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+#siguiente{
+    float:right;
+    display:inline;
+    margin:0;
+    margin-right: 55px;
+    margin-top: 50px;
+}
+
+figcaption {
+    display:none; 
+    transition: all .5s;
+  }
+  figure:hover > figcaption {
+    display:block;
+    transition: all .1s;
+    color:white;
+    text-shadow:0 0 0.2em violet, 0 0 0.2em pink;
+font-size: 30px;
+
+  }
+  figure{
+      margin:0px;
+      display:inline
+  }
+  #productos{
+      margin:0px;
+      padding:0px;
+  }
+  .consulta{
+      display:inline-block;
+      margin:5px;
+      width: 195px;
+      border-radius: 10px;
+      border: none;
+      margin-top: 15px;
+  }
+  .agregar{
+      margin-top: 15px;
+  }
+#actualizar{
+    font-size: 1.5em;
+    font-family: 'Grape Nuts', cursive;
+    margin-left: 12%;
+    margin-bottom: 2%;
+background-color: hotpink;;
+border: none;
+color:aliceblue;
+text-shadow:0 0 0.2em violet, 0 0 0.2em gray;
+padding:1.5%;
+font-weight: bold;
+border-radius: 10px;
+margin-left: 300px
+}
+#fecha{
+    width: 80px;
+    height: 80px;
+    border-radius: 80%;
+    border: none;
+    background-color: darkcyan;
+    color: aliceblue;
+    margin-top:20px;
+    margin-left: 20px;
+    float:left;
+    margin-right: 5px;
+    font-family: cursive;
+font-size: 12px;
+    padding: 15px;
+text-align: center;
+
+}
+#solCot{
+margin:40px;
+padding:0px;
+}
